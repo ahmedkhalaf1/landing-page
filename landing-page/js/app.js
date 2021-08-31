@@ -62,11 +62,6 @@ function addsection()
 function ActivLink(){
 let ul = document.getElementById("navbar__menu ul");
 let sectionsLinks = ul.getElementsByClassName("section");
-
-let main = document.getElementById("main1");
-let Activsections = main.getElementsByClassName("landing__container");
-
-
 for (let f = 0; f < sectionsLinks.length; f++) {
     sectionsLinks[f].addEventListener("click", function() {
   let current = document.getElementsByClassName("active");
